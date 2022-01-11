@@ -49,6 +49,12 @@ export default {
   modules: [
   ],
 
+  axios: {
+    proxy: true,
+    proxyHeaders: false,
+    credentials: false
+  },
+
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
