@@ -130,7 +130,7 @@ export default {
       this.isLoading = true;
       this.$axios
         .$get(
-          `https://newsapi.org/v2/top-headlines?sources=${newSource}&apiKey=${process.env.API_KEY}`
+          `https://newsapi.org/v2/top-headlines?sources=${newSource}&apiKey=${process.env.NUXT_ENV_API_KEY}`
         )
         .then((data) => {
           //console.log("output:",data)
@@ -157,7 +157,7 @@ export default {
   },
   async asyncData({ app }) {
     const { articles } = await app.$axios.$get(
-      `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${process.env.API_KEY}`
+      `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${process.env.NUXT_ENV_API_KEY}`
     );
 
     return { articles };
