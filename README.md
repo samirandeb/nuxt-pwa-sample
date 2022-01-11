@@ -1,5 +1,14 @@
 # news-pwa
 
+Sample [PWA](https://web.dev/progressive-web-apps/) application using [nuxt](https://nuxtjs.org/) framework other libraries.
+Other plugins & libraries used are:
+<ul>
+<li> Vuetify
+<li> @nuxtjs/axios]
+<li> @nuxtjs/dotenv
+<li> @nuxtjs/pwa
+<li> moment
+</ul>
 ## Build Setup
 
 ```bash
