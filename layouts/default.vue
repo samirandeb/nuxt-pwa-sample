@@ -84,7 +84,8 @@ export default {
   mounted() {
     this.$axios
       .$get(
-        `https://newsapi.org/v2/top-headlines/sources?apiKey=${process.env.NUXT_ENV_API_KEY}`
+        //`https://newsapi.org/v2/top-headlines/sources?apiKey=${process.env.NUXT_ENV_API_KEY}`
+        'http://localhost:8080/sources'
       )
       .then((data) => {
         this.items = data.sources;
