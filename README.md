@@ -4,7 +4,7 @@ Sample [PWA](https://web.dev/progressive-web-apps/) application using [nuxt](htt
 Other plugins & libraries used are:
 <ul>
 <li> Vuetify
-<li> @nuxtjs/axios]
+<li> @nuxtjs/axios
 <li> @nuxtjs/dotenv
 <li> @nuxtjs/pwa
 <li> moment
