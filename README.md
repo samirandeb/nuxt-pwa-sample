@@ -12,6 +12,9 @@ Other plugins & libraries used are:
 ## Build Setup
 
 ```bash
+# if using node version > 16 the run below command first
+$ export NODE_OPTIONS=--openssl-legacy-provider
+
 # install dependencies
 $ npm install
 
